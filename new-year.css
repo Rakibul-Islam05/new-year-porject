@@ -1,0 +1,202 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-section{
+    background-image: url('/images/banner/banner3.png');
+    width: 100%;
+}
+.right{
+     text-align: right;
+     margin-right: 230px;
+     padding-top: 200px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 65px;
+    color:#FFFFFF;
+    ;
+}
+.banner-discripton{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 450px;
+    margin-right:0px;
+    margin-top: 25px;
+    color: #FFFFFF;
+
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+/* banner section end hear */
+
+/* main section start hear */
+main{
+    padding: 0px 230px;
+}
+.about-me{
+    display: flex;
+    margin-top: 150px;
+    width: 1050px;
+    justify-content: center;
+    gap:80px;
+}
+.profile-photo{
+
+}
+.about-item{
+    margin: auto 0;
+}
+.about-title{
+    font-size: 40px;
+}
+.about-discribtion{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #474747;
+    margin-top: 30px;
+}
+.about-item ul{
+    margin-top: 20px;
+}
+.about-item ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #474747;
+    margin-top: 10px;
+}
+
+/* my plan section start here */
+.plan-title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    text-align: center;
+}
+.plan-container>.plan>img{
+    height: 60px;
+    width: 60px;
+}
+.plan-name{
+ font-size: 25px;
+ margin-top: 15px;
+ font-weight: 800;
+}
+.plan-discribtion{
+    font-weight: 400;
+    font-size: 18px;
+    color: #474747;
+    margin-top: 20px;
+}
+/* plan section end here */
+
+/* grandient start here */
+.gradient-container{
+    margin-top: 130px;
+    background-image:url('/images/gradient1.png'),url('/images/watch.png');
+}
+
+.gradient{
+    padding: 60px 70px 50px;
+ }  
+ .btn-call{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+ } 
+.gradient-title{
+     color: #FFFFFF;
+     font-size: 35px;
+     margin-bottom: 15px;
+}
+/* main section end here */
+footer{
+    background-color: black;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+/* footer section start here */
+.footer-container{
+    display: flex;
+}
+.footer-imformation{
+    width: 350px;
+    margin-left: 0px;
+}
+.imformation-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+}
+.imformation-discribtion{
+    color:#FFFFFF;
+    line-height: 30px;
+    font-size: 18px;
+    color: #474747;
+}
+.imformation-type{
+    color: #474747;
+    margin-top: 10px;
+}
+.social-logo{
+    margin-top: 25px;
+}
+.social-logo img{
+    margin-right: 20px;
+}
+.footer-contruct{
+    margin-right: 0px;
+}
+.contruct{
+    width: 350px;
+    
+}
+.contuct-title{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.email{
+ background-color: black;
+ border: 1px white solid;
+ width: 100%;
+ padding:15px;
+ border-radius: 5px;
+}
+.sub{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #005FAC;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
